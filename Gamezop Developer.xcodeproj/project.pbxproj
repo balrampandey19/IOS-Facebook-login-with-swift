@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A06E43A1CF447540099A88B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06E4391CF447540099A88B /* AppDelegate.swift */; };
+		7A06E43C1CF447540099A88B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A06E43B1CF447540099A88B /* ViewController.swift */; };
+		7A06E43F1CF447540099A88B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A06E43D1CF447540099A88B /* Main.storyboard */; };
+		7A06E4411CF447540099A88B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A06E4401CF447540099A88B /* Assets.xcassets */; };
+		7A06E4441CF447540099A88B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A06E4421CF447540099A88B /* LaunchScreen.storyboard */; };
+		7A06E4561CF44E000099A88B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A06E4551CF44E000099A88B /* FBSDKLoginKit.framework */; };
+		7A06E4581CF44E120099A88B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A06E4571CF44E120099A88B /* FBSDKCoreKit.framework */; };
+		7A06E45A1CF470E60099A88B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A06E4591CF470E60099A88B /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A06E4361CF447540099A88B /* Gamezop Developer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gamezop Developer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A06E4391CF447540099A88B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A06E43B1CF447540099A88B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A06E43E1CF447540099A88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A06E4401CF447540099A88B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A06E4431CF447540099A88B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A06E4451CF447540099A88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A06E4551CF44E000099A88B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7A06E4571CF44E120099A88B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7A06E4591CF470E60099A88B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		942BA5B2713AB47C7984C3F4 /* Pods-Gamezop Developer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamezop Developer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gamezop Developer/Pods-Gamezop Developer.debug.xcconfig"; sourceTree = "<group>"; };
+		B3D6079FB455B35F30A6A271 /* Pods-Gamezop Developer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gamezop Developer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gamezop Developer/Pods-Gamezop Developer.release.xcconfig"; sourceTree = "<group>"; };
+		D1AC74F7E26E9CB0FFA8703D /* Pods_Gamezop_Developer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gamezop_Developer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A06E4331CF447540099A88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A06E4561CF44E000099A88B /* FBSDKLoginKit.framework in Frameworks */,
+				7A06E4581CF44E120099A88B /* FBSDKCoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		082EFCAF4B6DBC137F5AC722 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				942BA5B2713AB47C7984C3F4 /* Pods-Gamezop Developer.debug.xcconfig */,
+				B3D6079FB455B35F30A6A271 /* Pods-Gamezop Developer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A06E42D1CF447540099A88B = {
+			isa = PBXGroup;
+			children = (
+				7A06E4571CF44E120099A88B /* FBSDKCoreKit.framework */,
+				7A06E4551CF44E000099A88B /* FBSDKLoginKit.framework */,
+				7A06E4381CF447540099A88B /* Gamezop Developer */,
+				7A06E4371CF447540099A88B /* Products */,
+				082EFCAF4B6DBC137F5AC722 /* Pods */,
+				C24E7D26C58FB4DF15D34E56 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7A06E4371CF447540099A88B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A06E4361CF447540099A88B /* Gamezop Developer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A06E4381CF447540099A88B /* Gamezop Developer */ = {
+			isa = PBXGroup;
+			children = (
+				7A06E4391CF447540099A88B /* AppDelegate.swift */,
+				7A06E43B1CF447540099A88B /* ViewController.swift */,
+				7A06E43D1CF447540099A88B /* Main.storyboard */,
+				7A06E4401CF447540099A88B /* Assets.xcassets */,
+				7A06E4421CF447540099A88B /* LaunchScreen.storyboard */,
+				7A06E4591CF470E60099A88B /* GoogleService-Info.plist */,
+				7A06E4451CF447540099A88B /* Info.plist */,
+			);
+			path = "Gamezop Developer";
+			sourceTree = "<group>";
+		};
+		C24E7D26C58FB4DF15D34E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1AC74F7E26E9CB0FFA8703D /* Pods_Gamezop_Developer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A06E4351CF447540099A88B /* Gamezop Developer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A06E4481CF447540099A88B /* Build configuration list for PBXNativeTarget "Gamezop Developer" */;
+			buildPhases = (
+				3DA6AEE9DC42FDED0E603636 /* 📦 Check Pods Manifest.lock */,
+				7A06E4321CF447540099A88B /* Sources */,
+				7A06E4331CF447540099A88B /* Frameworks */,
+				7A06E4341CF447540099A88B /* Resources */,
+				40A09D13515DF772D29E24AE /* 📦 Embed Pods Frameworks */,
+				A01176A7540B5CF1CB63F4E4 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gamezop Developer";
+			productName = "Gamezop Developer";
+			productReference = 7A06E4361CF447540099A88B /* Gamezop Developer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A06E42E1CF447540099A88B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Balram Pandey";
+				TargetAttributes = {
+					7A06E4351CF447540099A88B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7A06E4311CF447540099A88B /* Build configuration list for PBXProject "Gamezop Developer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A06E42D1CF447540099A88B;
+			productRefGroup = 7A06E4371CF447540099A88B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A06E4351CF447540099A88B /* Gamezop Developer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A06E4341CF447540099A88B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A06E4441CF447540099A88B /* LaunchScreen.storyboard in Resources */,
+				7A06E45A1CF470E60099A88B /* GoogleService-Info.plist in Resources */,
+				7A06E4411CF447540099A88B /* Assets.xcassets in Resources */,
+				7A06E43F1CF447540099A88B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DA6AEE9DC42FDED0E603636 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40A09D13515DF772D29E24AE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gamezop Developer/Pods-Gamezop Developer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01176A7540B5CF1CB63F4E4 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gamezop Developer/Pods-Gamezop Developer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A06E4321CF447540099A88B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A06E43C1CF447540099A88B /* ViewController.swift in Sources */,
+				7A06E43A1CF447540099A88B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A06E43D1CF447540099A88B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A06E43E1CF447540099A88B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A06E4421CF447540099A88B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A06E4431CF447540099A88B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A06E4461CF447540099A88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A06E4471CF447540099A88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A06E4491CF447540099A88B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 942BA5B2713AB47C7984C3F4 /* Pods-Gamezop Developer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Gamezop Developer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bpworld.Gamezop-Developer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A06E44A1CF447540099A88B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D6079FB455B35F30A6A271 /* Pods-Gamezop Developer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Gamezop Developer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bpworld.Gamezop-Developer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A06E4311CF447540099A88B /* Build configuration list for PBXProject "Gamezop Developer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A06E4461CF447540099A88B /* Debug */,
+				7A06E4471CF447540099A88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A06E4481CF447540099A88B /* Build configuration list for PBXNativeTarget "Gamezop Developer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A06E4491CF447540099A88B /* Debug */,
+				7A06E44A1CF447540099A88B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A06E42E1CF447540099A88B /* Project object */;
+}
